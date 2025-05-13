@@ -1,4 +1,4 @@
-def hello(first_name="GitHub Actions!", last_name=None):
+def hello(first_name="GitHub Actions", last_name=None):
     if not isinstance(first_name, str) or (
         last_name is not None and not isinstance(last_name, str)
     ):
