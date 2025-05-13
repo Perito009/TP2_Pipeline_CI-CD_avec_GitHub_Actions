@@ -26,3 +26,5 @@ def test_hello_performance():
 
 def test_hello_full_name():
     assert hello("Jane", "Smith") == "Hello, Jane Smith!"
+
+# Add a newline here
